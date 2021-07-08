@@ -1,0 +1,34 @@
+$vww_base: 1920;
+$vw_base: 1640;
+$vh_base: 969;
+@function vw($px) {
+    @return ($px / $vw_base) * 100%;
+}
+
+@function vww($px) {
+    @return ($px / $vww_base) * 100vw;
+}
+
+@function vh($px) {
+    @return ($px / $vh_base) * 100vh;
+}
+
+//颜色
+$exportedValue:red;
+$Bg_Color:#DFE2E7;
+:export {
+    exportedKey: $exportedValue;
+    /* ... */
+}
+
+.not-select {
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}

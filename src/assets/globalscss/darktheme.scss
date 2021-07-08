@@ -1,0 +1,598 @@
+.darktheme {
+    $border--color: #C8CED3;
+    $active--color: #deb52e;
+    .wetherIcon--Color {
+        color: #fff;
+    }
+    .page_Bg_Color {
+        background: #657a8f;
+    }
+    .page_Border_Color {
+        border: 1px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .fontColorTitle {
+        color: #097fc9;
+    }
+    .fontColorText {
+        color: #0fc909;
+    }
+    .fontColorTitle_acitive {
+        color: #de2e63
+    }
+    .nav_Bg_Color {
+        background: #385f75;
+    }
+    .up_tips {
+        color: #49ea9a;
+    }
+    .down_tips {
+        color: #a69e32;
+    }
+    .Button_Bg_Color {
+        background: #358abb;
+    }
+    .lineboxStyle {
+        background: #D5D8EA;
+    }
+    .Border_all {
+        border: 1px solid #cfd6db;
+    }
+    .Border_all_box-sizing {
+        border: 1px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .Border_bottom {
+        border-bottom: 1px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .Border_bottom4px {
+        border-bottom: 4px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .Border_top {
+        border-top: 1px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .Border_left {
+        border-left: 1px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .Border_right {
+        border-right: 1px solid #cfd6db;
+        box-sizing: border-box;
+    }
+    .Bg_Color_White {
+        background: #fff;
+    }
+    .Show--Data--3CB0D6 {
+        color: #3CB0D6;
+    }
+    .Show--Data--D1A969 {
+        color: #D1A969;
+    }
+    .MessageListoutbox--Bg_Color {
+        background: #F7F7F7!important;
+    }
+    .MessageListoutbox--border-bottom_Color {
+        border-bottom: 1px solid #EBEEF5!important;
+        box-sizing: border-box;
+    }
+    //重置select样式
+    .SelectOutbox_reset_select {
+        background: #F3F5F7;
+        border: 1px solid #C8CED3;
+        .el-input__inner {
+            background-color: transparent;
+            color: #545C6B;
+        }
+    }
+    //首页样式
+    .Home_TabsRoom_itembox {
+        border-top: 4px solid transparent;
+        border-bottom: 1px solid $border--color;
+        box-sizing: border-box;
+        &:first-child {
+            border-right: 1px solid $border--color;
+            box-sizing: border-box;
+        }
+    }
+    .Home_TabsRoom_itembox--active {
+        border-bottom: none;
+        border-top: 4px solid $active--color;
+        color: $active--color;
+        box-sizing: border-box;
+    }
+    .Home_tableoutbox_reset {
+        .reset_header-row--Style {
+            th {
+                background-color: #E8E8EB!important;
+            }
+        }
+        /deep/ .el-table tbody tr:hover>td {
+            background-color: #F5F5F6;
+        }
+        /deep/ .el-table__body tr.current-row>td {
+            background-color: #F5F5F6;
+        }
+        /deep/ .el-table__body tr:hover {
+            background-color: #F5F5F6;
+        }
+        /deep/ .el-table__body tr:hover {
+            background-color: #F5F5F6;
+        }
+        /deep/ .el-table--enable-row-transition .el-table__body td {
+            transition: background-color 0s ease;
+        }
+        /deep/ .el-table__body-wrapper {
+            width: 100%;
+        }
+        /deep/ .el-table th.is-leaf,
+        .el-table td {
+            border-bottom: none;
+        }
+        /deep/ .el-table th {
+            padding: 0;
+            height: 40px;
+            vertical-align: middle;
+            position: relative;
+            text-align: left;
+        }
+        /deep/ .el-table td {
+            padding: 0;
+            height: 40px;
+            vertical-align: middle;
+            position: relative;
+            text-align: left;
+        }
+        /deep/ .el-table .cell {
+            box-sizing: border-box;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            word-break: break-all;
+            line-height: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #545C6B;
+        }
+        /deep/ .oddRowStyle {
+            background: #F5F5F6 !important;
+        }
+        /deep/ .evenRowStyle {}
+        // /deep/ .el-table tbody tr:hover > td {
+        //   background: inherit;
+        // }
+    }
+    //滚动条的宽度
+     ::-webkit-scrollbar {
+        width: 8px;
+        height: 10px;
+    }
+    //滚动条的滑块
+     ::-webkit-scrollbar-thumb {
+        background-color: #CFD6DB;
+        border-radius: 3px;
+    }
+    .Home_Slot_ContentOutbox_itembox--Open {
+        background: #2fbe51;
+        color: #ffffff;
+    }
+    .Home_Slot_ContentOutbox_itembox--Close {
+        // background: #597d8a;
+        background: #BE1C1A;
+        color: #ffffff;
+    }
+    .Home_Slot_ContentOutbox_itembox--Error {
+        background: #cf6564;
+        color: #ffffff;
+    }
+    .el-icon-location--active {
+        color: #2e9bde;
+    }
+    .el-icon-location--normal {
+        color: #afb1b5;
+    }
+    .wetherIcon_outbox--BgColor--qing {
+        background: linear-gradient(31deg, #2D87E2, #0972DD);
+        box-shadow: -5px 9px 18px 0px rgba(194, 201, 207, 0.48);
+    }
+    .wetherIcon_outbox--BgColor--xiaoyu {
+        background: linear-gradient(31deg, #1ccfdf, #2ce0f0);
+        box-shadow: -5px 9px 18px 0px rgba(194, 201, 207, 0.48);
+    }
+    .wetherIcon_outbox--BgColor--zhongyu {
+        background: linear-gradient(31deg, #F38933, #E17A26);
+        box-shadow: -5px 9px 18px 0px rgba(194, 201, 207, 0.48);
+    }
+    .wetherIcon_outbox--BgColor--dayu {
+        background: linear-gradient(31deg, #FCBA03, #EEAF00);
+        box-shadow: -5px 9px 18px 0px rgba(194, 201, 207, 0.48);
+    }
+    .wetherIcon_outbox--BgColor--baoyu {
+        background: linear-gradient(31deg, #E12E2E, #CC2408);
+        box-shadow: -5px 9px 18px 0px rgba(194, 201, 207, 0.48);
+    }
+    .dialog_bg_color {
+        background: #fff;
+    }
+    .dialog_title_bg_color {
+        background: rgba(28, 39, 48, 1);
+    }
+    .dialog_title_font_color {
+        color: #fff
+    }
+    .Button_Bg--color {
+        background: #DFE2E7;
+    }
+    .Button_Bg--color--active {
+        background: #2E9BDE;
+    }
+    .Button_font--color--active {
+        background: #fff;
+    }
+    .select_input_Bg--color {
+        background-color: #f3f5f7;
+        border: 1px solid #C8CED3;
+    }
+    /deep/ .el-input__inner {
+        background-color: transparent;
+        border-radius: 2px;
+        border: none;
+        color: #506470;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0px 10px;
+    }
+    /deep/ .el-input.is-disabled .el-input__inner {
+        background-color: transparent;
+        border-radius: 2px;
+        border: none;
+        color: #506470;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0px 10px;
+    }
+    /deep/ .el-input__icon {
+        line-height: 24px;
+    }
+    /deep/ .el-icon-arrow-up:before {
+        content: "\25B2";
+        font-size: 12px;
+    }
+    .My_Select_Option_Reset_Style {
+        .el-select-dropdown__list {
+            border: solid 1px #333!important;
+            background-color: #eee!important;
+        }
+        .popper__arrow::after {
+            border-bottom-color: #333!important;
+        }
+        .el-select-dropdown__item {
+            color: rgb(163, 66, 66);
+            font-size: 12px;
+        }
+        .el-select-dropdown__item.hover,
+        .el-select-dropdown__item:hover {
+            background-color: #444;
+            color: #fff;
+        }
+    }
+    /deep/ .el-radio__input.is-checked .el-radio__inner {
+        border-color: #B6C2C9;
+        background: #fff;
+    }
+    /deep/ .el-radio__inner:hover {
+        border-color: #B6C2C9;
+        background: #fff;
+    }
+    /deep/ .el-radio__inner::after {
+        width: 5px;
+        height: 5px;
+        background-color: #506470;
+    }
+    /deep/ .el-radio__input.is-checked+.el-radio__label {
+        color: #506470;
+    }
+    /deep/ .el-radio {
+        color: #506470;
+        font-size: 12px;
+    }
+    .iconfont--hover:hover {
+        color: #2E9BDE;
+    }
+    /deep/ .el-textarea__inner {
+        background-color: transparent;
+        border-radius: 2px;
+        border: none;
+        color: #506470;
+        font-size: 12px;
+        height: 50px;
+        //  line-height: 50px;
+        padding: 0px 10px;
+    }
+    .iconfont_JT--color {
+        color: #cfd6db;
+    }
+    .nav_tips_num--backgroudColor {
+        background: #1C2730;
+    }
+    .list_item_bg {
+        background-color: #F3F5F7;
+    }
+    .Border--color {
+        color: #EBEEEF;
+    }
+    .iconfont_legend_box_boder_all {
+        border: 1px solid #C8CED3;
+        box-sizing: border-box;
+    }
+    .iconfont_legend_box_bg--color {
+        background: #137CBD;
+    }
+    .iconfont_legend_icon_font--color {
+        color: #657984;
+    }
+    .itembox_active_row {
+        background: #137CBD;
+    }
+    .itembox_active_row_font {
+        color: #FFFFFF;
+    }
+    .Infobar_slider_box {
+        /deep/ .el-slider__bar {
+            background-color: #2e9bde;
+        }
+        /deep/ .el-slider__runway {
+            height: 4px;
+            margin: 17px 0;
+            background-color: #b6c2c9;
+            border-radius: 3px;
+        }
+        /deep/ .el-slider__button-wrapper {
+            height: 15px;
+            width: 15px;
+            position: absolute;
+            top: -10px;
+        }
+        /deep/ .el-slider__button {
+            width: 8px;
+            height: 10px;
+            border: none;
+            background-color: #ffffff;
+            box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+            border-radius: 0;
+        }
+        /deep/ .el-slider__stop {
+            background-color: transparent;
+            top: 2px;
+        }
+        /deep/ .el-slider__marks-text {
+            font-size: 12px;
+            color: #506470;
+            margin-top: 26px;
+            top: -44px;
+            width: 16px;
+            margin-left: 2px;
+        }
+    }
+    .InfoBar_left_One_bg--color {
+        background: #f3f5f7;
+    }
+    .icon-quxiantu {
+        color: #fff;
+    }
+    .icon-duibi--bg--color {
+        background: #D9E3E8;
+    }
+    .icon-duibi-font--color {
+        color: #2E9BDE;
+    }
+    .icon-shijian--color {
+        color: #C1DDEE;
+    }
+    .checkboxREstStyle {
+        /deep/ .el-checkbox__input.is-checked .el-checkbox__inner {
+            background-color: #2E9BDE;
+            border-color: #2E9BDE;
+        }
+        /deep/ .el-checkbox__inner {
+            display: inline-block;
+            position: relative;
+            border: 1px solid #C8CED3;
+            border-radius: 2px;
+            box-sizing: border-box;
+            width: 14px;
+            height: 14px;
+            background-color: #F3F5F7;
+        }
+    }
+    .selectResetStyle {
+        /deep/ .el-input__inner {
+            background-color: transparent;
+            border-radius: 2px;
+            border: none;
+            color: #506470;
+            font-size: 12px;
+            height: 24px;
+            line-height: 24px;
+            padding: 0px 2px;
+        }
+        /deep/ .el-input.is-disabled .el-input__inner {
+            background-color: transparent;
+            border-radius: 2px;
+            border: none;
+            color: #506470;
+            font-size: 12px;
+            height: 24px;
+            line-height: 24px;
+            padding: 0px 10px;
+        }
+        /deep/ .el-input__icon {
+            line-height: 21px;
+        }
+        /deep/ .el-icon-arrow-up:before {
+            content: "\25B2";
+            font-size: 12px;
+            color: #506470;
+        }
+    }
+    .pumbeng_Close--color {
+        background: #F5A2A2;
+        color: #FFFFFF;
+        cursor: not-allowed;
+    }
+    .pumbeng_Open--color {
+        background-color: #ABDBC6;
+        color: #FFFFFF;
+        cursor: not-allowed;
+    }
+    .pumbeng_Close--color--active {
+        background-color: #ED3B3B;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .pumbeng_Open--color--active {
+        background-color: #30D88F;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .el-popover {
+        background: #fff!important;
+        border: 1px solid #F3F5F7!important;
+        color: #506470!important;
+        font-size: 12px!important;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)!important;
+    }
+    .el-button--primary {
+        color: #FFFFFF!important;
+        background-color: #2ede7d!important;
+        border-color: #2ede71!important;
+    }
+    .el-popconfirm__action {
+        margin-top: 10px!important;
+    }
+    .el-popconfirm__main {
+        margin-bottom: 10px;
+    }
+    .el-button--text:hover,
+    .el-button--text:focus {
+        color: #2ede69!important;
+        border-color: transparent;
+        background-color: transparent;
+    }
+    .el-button--text {
+        border-color: transparent;
+        color: #2ede5a!important;
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .InputDisabled-bg--color {
+        background: #F3F5F7;
+        /deep/ .el-input.is-disabled .el-input__inner {
+            background-color: transparent;
+            border-radius: 2px;
+            border: none;
+            color: #C9CFD4;
+            font-size: 12px;
+            height: 24px;
+            line-height: 24px;
+            padding: 0px 10px;
+        }
+    }
+    .font_Color_YanZhong {
+        color: #B43131;
+    }
+    .font_Color_ZhongDeng {
+        color: #E3B015;
+    }
+    .font_Color_QingWei {
+        color: #59CA79;
+    }
+    .font_Color_LiangHao {
+        color: #2E9BDE;
+    }
+    .PipeNetworkDiagnosisPages_tableComponent_reset {
+        .reset_header-row--Style {
+            th {
+                background-color: #E8E8EB!important;
+            }
+        }
+        /deep/ .el-table__body-wrapper {
+            width: 99.5%;
+            overflow-y: auto;
+            overflow-x: hidden;
+            &::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+                background-color: #f5f5f5;
+                background-color: transparent;
+            }
+            /*定义滚动条轨道 内阴影+圆角*/
+            &::-webkit-scrollbar-track {
+                //  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                background-color: #f5f5f5;
+                background-color: transparent;
+            }
+            /*定义滑块 内阴影+圆角*/
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                // -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+                background-color: #CFD6DB;
+                //background-color: transparent;
+            }
+        }
+        /deep/ .el-table th.is-leaf,
+        .el-table td {
+            border-bottom: none;
+        }
+        /deep/ .el-table th {
+            padding: 0;
+            height: 40px;
+            vertical-align: middle;
+            position: relative;
+            text-align: left;
+        }
+        /deep/ .el-table td {
+            padding: 0;
+            height: 40px;
+            vertical-align: middle;
+            position: relative;
+            text-align: left;
+        }
+        /deep/ .el-table .cell {
+            box-sizing: border-box;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            word-break: break-all;
+            line-height: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #506470;
+        }
+        /deep/ .oddRowStyle {
+            background: #f5f5f6;
+        }
+        /deep/ .evenRowStyle {}
+        /deep/ .el-table__body tr.current-row>td {
+            //  background-color: #B43131 !important;
+            background-color: #506470 !important;
+            .cell {
+                color: #fff !important;
+            }
+        }
+        /deep/ .el-table tbody tr:hover>td {
+            background: inherit;
+            cursor: pointer;
+        }
+    }
+}
