@@ -16,9 +16,9 @@ npm run build
 ```
 
 ### 预览页
-See [Configuration Reference](https://volodyan.github.io/vue-d3-pmt2_preview/).
+See [Configuration Reference](https://volodyan.github.io/vue_infiniterollingtable_preview/#/).
 ```
-https://volodyan.github.io/vue-d3-pmt2_preview/
+https://volodyan.github.io/vue_infiniterollingtable_preview/#/
 
 ```
 
